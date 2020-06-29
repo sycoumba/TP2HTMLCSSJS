@@ -1,0 +1,107 @@
+body{
+	font-family: verdana, arial, sans serif;
+	background-color:#504DC1;
+}
+.main{display: flex;
+	padding:0px;
+        margin:10px;
+        background-color: white;
+
+}
+h1{
+        float: right;
+        color:#504DC1;
+}
+h2{
+      background-color: white;  
+      padding: 10px;
+      margin: 30px;
+      text-align: center;
+      color:#504DC1;
+      border-radius: 75px;
+}
+.flex{
+        display: flex;
+        padding: 0px;
+        margin: 0%;
+        border-radius: 45;
+}
+a{
+        float: right;
+        text-decoration: none;
+        margin-left: 70px;
+        background-color: white;
+        padding:30px ;
+        border-radius: 35px;
+
+        
+}
+p{
+        text-align: center;
+        padding :30px;
+        text-decoration: none;
+        border-radius: 35px;
+        color:#504DC1;
+}
+.cs{
+	display: inline-block;
+	padding: 0px;
+        margin: 0px;
+        color: white;
+        left: 30%;
+        top: 70%;
+        position: absolute;
+        transform: translate(-50,-50);
+        box-sizing: 30px;
+        color: white;
+        border-radius: 45px;
+        border: 15px solid;
+        background-color: white;
+        width: 40%;
+}
+.cs p
+ {
+	display: inline-block;
+        text-decoration:none;
+        color:#504DC1;
+
+}
+
+.champ{
+        text-align: center;
+        color:#504DC1 ;
+}
+h3{
+        color: #504DC1;
+        text-align: center;
+}
+h4{
+        color: #504DC1;
+        text-align: center;
+}
+::placeholder{
+        color: #504DC1;
+}
+#sexeHF{
+        float: right;
+        left: 30%;
+}
+#date{
+        content: #504DC1;
+}
+#valider{
+       background-color: #504DC1;
+       font-size:x-large;
+       
+
+}
+#retour{
+       background-color:#504DC1;
+       font-size:x-large ;
+     
+
+
+}
+strong{
+        color: red;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="abdou();">
+    <header>
+        <div class="main">
+            <img src="logo.jpeg">
+            <h1> BIENVENUE DANS LA BANQUE DU PEUPLE</h1>
+        </div>
+
+    </header>
+
+    <h2> VEUILLEZ SELECTONNEZ LE TYPE DE CLIENT A AJOUTER</h2>
+    <div class="flex">
+        <p>
+            <a href="##" id="salarie" type="submit">CLIENT SALARIE</a>
+            <a href="##" id="non_salarie">CLIENT NON SALARIE</a>
+            <a href="##" id="moral"> CLIENT MORAL</a>
+        </p>
+    </div>
+
+    <form class="cs" id="validation" method="POST">
+        <div id="ouve">
+            <h2>OUVERTURE COMPTE</h2>
+            <P> Nouveau Client</P>
+            <input type="radio" name="typeClient" value="Nouveau Client" id="Nouveau">
+            <P>Client existant</P>
+            <input type="radio" name="typeClient" value="Client existant" id="existant">
+            <P>Identifiant Client</P>
+            <p><input class="champ" type="text" value="rechercher"/></p>
+           </div>
+           <div id="info">
+               <div id ="info1">
+            <h3>INFORMATION DU CLIENT</h3>
+            <div>
+                <p> Nom: </p><strong>*</strong>
+                <input type="text" name="Nom" id="Nom" placeholder="Entrer le Nom">
+                <span id="Nom_manquant"></span>
+            </div>
+            <div>
+                <p> Prenom :</p> <strong>*</strong>
+                <input type="text" name="Prenom" id="Prenom" placeholder="Entrer  le Prenom">
+            </div>
+            <div>
+                <p> CNI :</p> <strong>*</strong>
+                <input type="text" name="CNI" id="CNI" placeholder="Entrer  le CNI">
+            </div>
+            <div>
+                <p><label for="Sexe"> Sexe:</label></p>
+                <select name="sexe" id sexe>
+                    <option value="Homme" id="H"> Homme</option>
+                    <option value="Femme" id="F"> Femme</option>
+                </select>
+            </div>
+            <div>
+                <p> Adresse: </p> <strong>*</strong>
+                <input type="text" name="Adresse" id="Adresse" placeholder="Entrer Adresse">
+            </div>
+            <div>
+                <p> Email: </p> <strong>*</strong>
+                <input type="text" name="Email" id="Email" placeholder="Entrer Email">
+            </div>
+            <div>
+                <p> Téléphone: </p> <strong>*</strong>
+                <input type="Telephone" name="Telephone" id="Telephone" placeholder="Entrer le numero de Téléphone">
+            </div>
+            </div>   
+            <div>
+                <p> Profession: </p> <strong>*</strong>
+                <input type="text" name="Profession" id="Profession" placeholder="Entrer la Profession">
+            </div>
+            <div>
+                <p> Nom_employeur: </p> <strong>*</strong>
+                <input type="text" name="Nom_employeur" id="Nom_employeur" placeholder="Entrer le Nom_employeur">
+            </div>
+            <div>
+                <p> Adresse_employeur: </p> <strong>*</strong>
+                <input type="Texte" name="Adresse_employeur" id="Adresse_employeur"placeholder="Entrer l'Adresse_employeur">
+        </div>
+    </div>
+    <div id="compte">
+        <h4> INFORMATIONS COMPTE</h4>
+            <div>
+            <p><label for="Compte"> Types de Comptes:</label></p>
+            <select name="Types de Comptes">
+                <option value="Compte Epargne" id="epargne"> Compte Epargne </option>
+                <option value="Compte Courant" id="courant"> Compte Courant </option>
+                <option value="Compte Bloqué" id="bloque"> Compte bloque </option>
+            </select>
+        </div> 
+        <div id="types">
+            <p> Numero_Agence:</p> <strong>*</strong>
+            <input type="text" name="Numero_Agence" id="Numero_Agence" placeholder="Entrer le numero de l'agence">
+        <div>
+            <p> Numero_Compte: </p> <strong>*</strong>
+            <input type="text" name="Numero_Compte" id="Numero_Compte" placeholder="Entrer le numero du Compte">
+        </div>
+        <div>
+            <p> Cle Rib:</p> <strong>*</strong>
+            <input type="text" name="" id="Cle Rib" placeholder="Entrer la Cle Rib">
+        </div>
+        <div>
+            <p> Date d'ouverture:</p> <strong>*</strong>
+            <input type="date" name="date" id="date">
+        </div>
+        <div>
+            <p> Frais_Ouverture:</p> <strong>*</strong>
+            <input type="text" name="Frais_Ouverture" id="Frais_Ouverture" placeholder="Entrer le Frais_Ouverture">
+        </div>
+        <div>
+            <p> Agios:</p> <strong>*</strong>
+            <input type="text" name="Agios" id="Agios" placeholder="Entrer l'Agios">
+        </div>
+        <div>
+            <p> Duree_blocage:</p> <strong>*</strong>
+            <input type="text" name="Agios" id="Agios" placeholder="Entrer la duree de blocage">
+        </div> 
+    </div>
+</div>
+        <div>
+            <p><input type="submit" value="valider" id="valider"> <input type="reset" value="retour" id="retour"></p>
+        </div>
+    </div>
+    </form>
+    <script src="control.js"></script>
+</body>
+</html>
